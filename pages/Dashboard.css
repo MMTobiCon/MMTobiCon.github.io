@@ -1,0 +1,49 @@
+.dashboard_container{
+    justify-content: start;
+    min-height: 100vh;
+
+}
+
+.dash_title{
+    margin-bottom: 64px;
+}
+
+.progress{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap:24px;
+    box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, 0.144);
+    width: 500px;
+    padding: 24px;
+    font-weight: 100;
+    margin-bottom: 32px;
+}
+
+.progress span{
+    border: 6px solid #333;
+    border-radius: 50%;
+    /* height: 5cap; */
+    /* width: 50px; */
+    display: inline-block;
+    padding: 16px;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dbdbdb;
+    width: 70%;
+    
+}
+
+.courses p {
+    margin-top: 16px; 
+
+}
+.courses a {
+    color: blue;
+    text-decoration: underline;
+}

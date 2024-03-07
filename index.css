@@ -23,6 +23,12 @@ button{
 a{
     color: white;
     text-decoration: none ;
+    text-align: center;
+}
+.home_hero_images a{
+    background-color: var(--orange);
+    padding: 16px;
+    border-radius: 8px;
 }
 
 body{
@@ -69,6 +75,7 @@ section{
     align-items: center;
     flex-direction: column;
     padding-top:150px;
+    /* min-height: 100vh; */
     /* padding-inline: 200px; */
     /* color: blue; */
 }
@@ -174,11 +181,13 @@ height: 400px;
     padding:8px;
 }
 
-.offerings_container button{
+.offerings_container a{
     background-color: var(--orange);
+    text-align: center;
     color:white;
     width:40%;
     border-radius: 8px;
+    padding: 16px;
 }
 
 .home_learn span{

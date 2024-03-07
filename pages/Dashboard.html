@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../index.css">
-    <link rel="stylesheet" href="Login.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    <title>Login</title>
+    <link rel="stylesheet" href="Dashboard.css">
+    <title>Document</title>
 </head>
 <body>
     <nav class="navigation_wrapper">
@@ -33,24 +30,26 @@
             </li>
         </ul>
     </nav>
-    <section class="login_container">
+    <section class="dashboard_container">
 
-        
-        <form class="form_card">
-            <h1>Proceed to Dashboard</h1>
-            <p>login with any valid email to proceed to dashboard page</p>
+        <h1 class="dash_title">Dashboard</h1>
 
-            <fieldset>
-                <label>Email:</label>
-                <input type="email"/>
-            </fieldset>
-            <fieldset>
-                <label>Password:</label>
-                <input type="password"/>
-            </fieldset>
-<a href="/pages/dashboard.html">LOGIN</a>
-        </form>
+        <div class="progress">
+
+            <h1>Your progress</h1>
+  
+            <div >
+
+                <span>0%</span>
+            </div>
+        </div>
+       <div class="courses">
+        <p>You are not enrolled for any course yet. &nbsp; Any course you enroll for appears here. &nbsp;<a href="/pages/Courses.html">Enroll Now</a></p>
+       </div>
+
+        <a href="/pages/Courses.html">Enroll for a course</a>
     </section>
+
     <footer>
         <div class="logo">
             <img src="assets/logo.png" alt="logo">
