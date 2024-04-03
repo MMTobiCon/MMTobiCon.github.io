@@ -1,0 +1,35 @@
+:root{
+    --green: #7C8055;
+    --blue: #298CAB;
+    --orange: #FF9345;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:150px;
+    gap: 32px;
+    padding-inline: 120px;
+}
+
+article{
+    border: 2px solid #333; 
+    border-radius: 16px;
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+    flex-direction: column;
+    padding:32px;
+    cursor: pointer;
+
+}
+article:hover{
+    border: 2px solid var(--blue);
+}
+
+.card-btn{
+    width:200px;
+    border-radius: 0px;
+    padding: 8px;
+}
