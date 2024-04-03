@@ -1,11 +1,38 @@
 .contact-container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    padding-top:150px;
+    /* padding-top:150px; */
     gap:32px;
-    min-height: 90vh;
+    min-height: 90vh; 
+}
+
+.header{
+    /* background-color: red; */
+    background: url(../assets/pexels-andrea-piacquadio-789822.jpg);
+    margin-top: 0;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    /* padding: 64px ; */
+}
+
+
+.header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: #292929a2;
+    width: 100%;
+    height: 100%;
+}
+
+.header p, h1{
+    z-index: 99;
 }
 
 .contact-information{
@@ -17,7 +44,7 @@
     padding-inline: 16px;
 }
 .contact-information :first-child{
-    border-right: 2px solid #333;
+    border-right: 2px solid #ffffff;
 }
 
 .contact-form{
@@ -43,3 +70,4 @@
 .contact-form button{
     background-color: #FF9345;
 }
+
